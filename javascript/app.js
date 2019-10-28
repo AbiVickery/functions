@@ -133,3 +133,18 @@ console.log(result);
     d: 275;
     q: 833;
 } */
+
+
+drawer = {
+    total: 0,
+    pennies: {
+        total: 0,
+        rolls: 0,
+        remainer: 0
+    },
+}
+
+// loop through each of the currencies in the data set
+// put for loop here
+
+// if (cur == 'pennies' || cur == 'dimes')
