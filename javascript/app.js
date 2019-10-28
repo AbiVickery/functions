@@ -9,8 +9,9 @@ function name(first = 'Abby', last = 'Curry') {
     console.log(first, last);
 }
 
-name('Abby', 'Chili');
-name('Abby');
 name();
+name('Danie');
+name('Abby', 'Curry');
 
 // if(last) { last } else { 'Curry' };
+
