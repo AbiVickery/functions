@@ -119,4 +119,7 @@ function clac(num1, num2, type = 'add') {
         default:
             break;
     }
+
+    return result;
 }
+var result = clac(1,2);
