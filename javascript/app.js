@@ -117,7 +117,7 @@ function clac(num1, num2, type = 'add') {
         case 'divide':
             result = num1 / num2;
         default:
-            // do stuff
+            // else do stuff
             break;
     }
 
