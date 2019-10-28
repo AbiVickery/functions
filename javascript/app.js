@@ -15,3 +15,16 @@ name('Abby', 'Curry');
 
 // if(last) { last } else { 'Curry' };
 
+function scope(param1 = 'Hello', param2 = 'world') {
+    var newVar = 'Hola';
+    var newLet = 'mundo';
+    const newConst = '!';
+
+    console.log(param1, param2);
+
+}
+
+
+console.log(newVar);
+console.log(newLet);
+console.log(newConst);
