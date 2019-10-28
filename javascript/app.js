@@ -92,4 +92,7 @@ function Hotel(name, rooms, booked) {
 }
 
 var quayHotel = new Hotel('Quay', 40, 25);
+
+quayHotel.booked += 1;
+
 console.log(quayHotel.checkAvailability());
