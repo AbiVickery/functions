@@ -56,7 +56,7 @@ console.log('add ==', add);
 
 var number = 2; // Global
 
-function multiplyByNum(mum1, num2) {
+function multiplyByNum(num1, num2) {
     return num1 * num2;
 }
 
