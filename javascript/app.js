@@ -34,14 +34,14 @@
 // // console.log(newConst);
 // console.log(newConst);
 
-// function sum(num1, num2) {
-//     return num1 + num2;
-// }
+function sum(num1, num2) {
+    return num1 + num2;
+}
 
-// sum(1,2); // 3
-// // add == 3
-// add += 3;
-// console.log('add ==', add);
+sum(1,2); // 3
+// add == 3
+add += 3;
+console.log('add ==', add);
 
 
 function sum(num1, num2) {
