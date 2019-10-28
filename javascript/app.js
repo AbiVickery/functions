@@ -70,10 +70,26 @@ var divide = function divideByNumber() {
 var result2 = divide(10,5);
 console.log(result2); // 2
 
-var hotel = {
-    rooms: 40,
-    booked: 25,
-    checkAvailability: function(){
-        return this.rooms - this.booked;
-    }
-};
+// var hotel = {
+//     rooms: 40,
+//     booked: 25,
+//     checkAvailability: function(){
+//         return this.rooms - this.booked;
+//     }
+// };
+
+// var hotel = new Object();
+// hotel.rooms = 40;
+// // etc.. 
+
+function Hotel(name, rooms, booked) {
+    this.name = name;
+    this.rooms = rooms;
+    this.booked = booked;
+    this.checkAvailability = function () {
+        returns this.rooms - this.booked;
+    };
+}
+
+var quayHotel = new Hotel('Quay', 40, 25);
+console.log(quayHotel.checkAvailability());
