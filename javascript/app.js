@@ -87,11 +87,13 @@ function Hotel(name, rooms, booked) {
     this.rooms = rooms;
     this.booked = booked;
     this.checkAvailability = function () {
-        returns this.rooms - this.booked;
+        return this.rooms - this.booked;
     };
 }
 
 var quayHotel = new Hotel('Quay', 40, 25);
+
+console.log(quayHotel.checkAvailability());
 
 quayHotel.booked += 1;
 
