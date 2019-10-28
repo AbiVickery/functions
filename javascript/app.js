@@ -102,3 +102,21 @@ console.log(quayHotel.checkAvailability());
 quayHotel.booked += 1;
 
 console.log(quayHotel.checkAvailability());
+
+function clac(num1, num2, type = 'add') {
+    switch (type) {
+        case 'add':
+            result = num1 + num2;
+            break;
+        case 'subtract':
+            result = num1 - num2;
+            break;
+        case 'multiply':
+            result = num1 * num2;
+            break;
+        case 'divide':
+            result = num1 / num2;
+        default:
+            break;
+    }
+}
