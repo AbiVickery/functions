@@ -106,7 +106,7 @@ console.log(quayHotel.checkAvailability());
 function clac(num1, num2, type = 'add') {
     switch (type) {
         case 'add':
-            result = num1 + num2;
+            result = sum(num1 + num2);
             break;
         case 'subtract':
             result = num1 - num2;
