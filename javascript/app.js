@@ -125,3 +125,11 @@ function calc(num1, num2, type = 'add') {
 }
 var result = clac(3,1,'subtract'); // 3
 console.log(result);
+
+
+/* object {
+    p: 230;
+    n: 150;
+    d: 275;
+    q: 833;
+} */
