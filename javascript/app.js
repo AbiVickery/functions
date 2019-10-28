@@ -39,3 +39,6 @@ function sum(num1, num2) {
 }
 
 sum(1,2); // 3
+// add == 3
+add += 3;
+console.log('add ==', add);
