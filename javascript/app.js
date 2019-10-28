@@ -6,3 +6,5 @@ function name(first,last) {
 }
 
 name('Abby likes','Curry');
+
+if(last) { last } else { 'Curry' };
