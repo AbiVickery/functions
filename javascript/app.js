@@ -24,6 +24,7 @@ function scope(param1 = 'Hello', param2 = 'world') {
 
 }
 
+scope();
 
 console.log(newVar);
 console.log(newLet);
