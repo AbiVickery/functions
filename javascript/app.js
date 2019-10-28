@@ -20,7 +20,7 @@ function scope(param1 = 'Hello', param2 = 'world') {
     var newLet = 'mundo';
     const newConst = '!';
 
-    console.log(param1, param2);
+    console.log(param1, param2, newConst);
 
 }
 
