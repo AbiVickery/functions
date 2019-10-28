@@ -69,3 +69,11 @@ var divide = function divideByNumber() {
 
 var result2 = divide(10,5);
 console.log(result2); // 2
+
+var hotel = {
+    rooms: 40,
+    booked: 25,
+    checkAvailability: function(){
+        return this.rooms - this.booked;
+    }
+};
