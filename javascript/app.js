@@ -29,6 +29,13 @@ scope();
 
 newConst = 'oops!'
 
-console.log(newVar);
-console.log(newLet);
+// console.log(newVar);
+// console.log(newLet);
+// console.log(newConst);
 console.log(newConst);
+
+function sum(num1, num2) {
+    return num1 + num2;
+}
+
+sum(1,2); // 3
