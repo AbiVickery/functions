@@ -124,3 +124,4 @@ function clac(num1, num2, type = 'add') {
     return result;
 }
 var result = clac(1,2); // 3
+console.log(result);
