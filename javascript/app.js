@@ -16,9 +16,9 @@ name('Abby', 'Curry');
 // if(last) { last } else { 'Curry' };
 
 function scope(param1 = 'Hello', param2 = 'world') {
-    var newVar = 'Hola';
-    let newLet = 'mundo';
-    const newConst = '!';
+     newVar = 'Hola';
+     newLet = 'mundo';
+     newConst = '!';
 
     console.log(param1, param2, newConst);
 
