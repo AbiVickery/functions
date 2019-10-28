@@ -149,3 +149,6 @@ console.log(result);
 
 // if (cur == 'pennies' || cur == 'dimes')
 
+var coinsInChangeJar = {
+    //
+}
