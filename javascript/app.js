@@ -62,3 +62,10 @@ function multiplyByNum(num1, num2) {
 
 var result = multiplyByNum(5, number);
 console.log(result); // 10
+
+var divide = function divideByNumber() {
+    return num1 / num2;
+}
+
+var result2 = divide(10,5);
+console.log(result2);
