@@ -26,6 +26,9 @@ function scope(param1 = 'Hello', param2 = 'world') {
 
 scope();
 
+
+newConst = 'oops!'
+
 console.log(newVar);
 console.log(newLet);
 console.log(newConst);
