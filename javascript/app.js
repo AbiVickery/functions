@@ -82,6 +82,10 @@ console.log(result2); // 2
 // hotel.rooms = 40;
 // // etc.. 
 
+class beedoe {
+    constructor();
+}
+
 function Hotel(name, rooms, booked) {
     this.name = name;
     this.rooms = rooms;
