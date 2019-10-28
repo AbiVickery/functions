@@ -68,4 +68,4 @@ var divide = function divideByNumber() {
 }
 
 var result2 = divide(10,5);
-console.log(result2);
+console.log(result2); // 2
