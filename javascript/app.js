@@ -103,7 +103,7 @@ quayHotel.booked += 1;
 
 console.log(quayHotel.checkAvailability());
 
-function clac(num1, num2, type = 'add') {
+function calc(num1, num2, type = 'add') {
     switch (type) {
         case 'add':
             result = sum(num1 + num2);
